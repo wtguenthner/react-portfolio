@@ -1,9 +1,12 @@
 nav{
    background: linear-gradient(35deg, black, rgb(4, 4, 96), transparent);
    display:flex;
-   justify-content: space-between;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   flex-direction: column;
    align-items: center;
    padding:5px;
+   
 }
 
 nav h1{
@@ -12,21 +15,21 @@ nav h1{
     padding: 5px;
     border-radius: 8px;
     border: 2px solid white;
-    
-
 }
 
 nav button{
     margin: 5px;
+    text-align: center;
     background-color: transparent;
-    color: black;
+    color: white;
     border: 2px solid transparent;
     border-radius: 8px;
+    font-size: 20px;
 
 }
 
 nav button:hover{
     background-color: rgb(4, 4, 96);
-    color:white;
+    color:rgb(94, 94, 230);
     cursor: pointer;
 }

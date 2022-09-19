@@ -1,5 +1,6 @@
 .aboutMe {
     margin: 10vh;
+    color:white;
 }
 
 .aboutMe img {
@@ -7,3 +8,7 @@
     margin-right: 10px;
     float: left;
 }
+
+body{
+    background-color: rgb(94, 94, 230);
+  }
