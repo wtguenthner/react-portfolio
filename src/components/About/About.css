@@ -1,0 +1,9 @@
+.aboutMe {
+    margin: 10vh;
+}
+
+.aboutMe img {
+    border-radius: 25px;
+    margin-right: 10px;
+    float: left;
+}

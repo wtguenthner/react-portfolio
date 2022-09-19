@@ -1,0 +1,46 @@
+.Projects{
+    margin:10vh;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Projects section{
+    width:48%;
+    position: relative;
+    margin-bottom: 10px;
+    height:100%;
+}
+
+.Projects section img{
+    width:100%;
+}
+.Projects section:hover{
+    opacity: 60%;
+}
+
+.Projects section div{
+    border-radius: 8px;
+    background-color: rgb(4, 4, 96);
+    position: absolute;
+    color:white;
+    bottom: 10px;
+    left:10px;
+    width:50%;
+}
+.Projects h4{
+font-size: 100%;
+word-wrap:break-word;
+
+}
+
+.Projects h2{
+    font-size: 1.2em;
+    word-wrap:break-word;
+}
+
+.Projects section:first-child{
+    width:100%;
+    /* height:auto; */
+
+}
