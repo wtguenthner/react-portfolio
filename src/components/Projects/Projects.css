@@ -3,6 +3,7 @@
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    
 }
 
 .Projects section{
@@ -30,7 +31,8 @@
     color:white;
     bottom: 10px;
     left:10px;
-    width:50%;
+    height:15%;
+    width:70%;
 }
 .Projects h4{
 font-size: 100%;
@@ -41,10 +43,11 @@ word-wrap:break-word;
 .Projects h2{
     font-size: 1.2em;
     word-wrap:break-word;
+    padding:5px;
 }
 
-.Projects section:first-child{
-    width:100%;
-    /* height:auto; */
+/* .Projects section:first-child{
+    width:60%;
+    margin-left:20%;
+    /* height:400px; */
 
-}

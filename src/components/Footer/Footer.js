@@ -1,10 +1,12 @@
 import './Footer.css';
 import { GoMarkGithub } from "react-icons/go";
-
+import {BsLinkedin} from "react-icons/bs"
+import {SiCodewars} from "react-icons/si"
 const Footer = () =>
 <footer>
-<h1>Footer</h1>
-{/* <div className = "icon"><GoMarkGithub /></div> */}
+<div className = "icon"><a href="https://github.com/wtguenthner"><GoMarkGithub /></a></div>
+<div className = "icon"><a href="https://www.linkedin.com/in/taylor-guenthner-a997218b/"><BsLinkedin /></a></div>
+<div className ="icon"><a href="https://www.codewars.com/users/wtguenthner"><SiCodewars /></a></div>
 </footer>
 
 export default Footer;
