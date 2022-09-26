@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/wtguenthner/react-portfolio/static/css/main.a9cd26a5.css",
-    "main.js": "/wtguenthner/react-portfolio/static/js/main.d51af7ce.js",
+    "main.css": "/wtguenthner/react-portfolio/static/css/main.33e09e0c.css",
+    "main.js": "/wtguenthner/react-portfolio/static/js/main.ab617fb4.js",
     "static/js/787.a2cb61a6.chunk.js": "/wtguenthner/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/dungeons.png": "/wtguenthner/react-portfolio/static/media/dungeons.a470b89573faf5b3786a.png",
+    "static/media/event-finder.png": "/wtguenthner/react-portfolio/static/media/event-finder.f0be60466bcd9300e495.png",
+    "static/media/weatherapp.png": "/wtguenthner/react-portfolio/static/media/weatherapp.4a06b21a2bb81cd2bfa4.png",
+    "static/media/profile_pic.jpg": "/wtguenthner/react-portfolio/static/media/profile_pic.643bae5a8647ba154b88.jpg",
+    "static/media/planner.png": "/wtguenthner/react-portfolio/static/media/planner.0e4d64c09f6a324b53f6.png",
     "index.html": "/wtguenthner/react-portfolio/index.html",
-    "main.a9cd26a5.css.map": "/wtguenthner/react-portfolio/static/css/main.a9cd26a5.css.map",
-    "main.d51af7ce.js.map": "/wtguenthner/react-portfolio/static/js/main.d51af7ce.js.map",
+    "main.33e09e0c.css.map": "/wtguenthner/react-portfolio/static/css/main.33e09e0c.css.map",
+    "main.ab617fb4.js.map": "/wtguenthner/react-portfolio/static/js/main.ab617fb4.js.map",
     "787.a2cb61a6.chunk.js.map": "/wtguenthner/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9cd26a5.css",
-    "static/js/main.d51af7ce.js"
+    "static/css/main.33e09e0c.css",
+    "static/js/main.ab617fb4.js"
   ]
 }
