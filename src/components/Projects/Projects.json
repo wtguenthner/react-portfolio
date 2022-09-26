@@ -10,21 +10,21 @@
         "key": "2",
         "title": "Event Finder",
         "description": "This is an application. Filler space",
-        "image": "wk2",
+        "image": "event",
         "link": "https://mmmphoto.github.io/Event-Finder/"
     },
     {
         "key": "3",
         "title": "Weather Dashboard",
         "description": "This is an application. Filler space",
-        "image": "wk2",
+        "image": "weather",
         "link": "https://wtguenthner.github.io/Weather_Dashboard/"
     },
     {
         "key": "4",
         "title": "Weekly Planner",
         "description": "This is an application. Filler space",
-        "image": "wk2",
+        "image": "planner",
         "link": "https://wtguenthner.github.io/Weekly_Planner/"
     },
     {
