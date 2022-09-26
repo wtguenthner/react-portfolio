@@ -1,6 +1,6 @@
 import "./Projects.css";
 import projects from "./Projects.json";
-import work1 from "./img/work1.jpeg";
+
 const Projects = () =>
     <main className="Projects">
         {projects.map(app=>

@@ -1,4 +1,14 @@
 footer {
-    position: static;
+    height: fit-content;
+    width:100%;
+    position: fixed;
     bottom: 0;
+    background: linear-gradient(35deg, white, rgb(4, 4, 96), transparent);
+    text-align: center;
+   
+}
+
+.icon svg{
+   height:5em;
+    text-align: center;
 }

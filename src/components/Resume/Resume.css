@@ -1,14 +1,12 @@
-.aboutMe {
+.resume {
     margin: 10vh;
     color:white;
 }
 
-.aboutMe img {
+.resume img {
     border-radius: 25px;
     margin-right: 10px;
     float: left;
-    height:300px;
-    width:150px;
 }
 
 body{
