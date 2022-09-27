@@ -1,39 +1,62 @@
-nav{
-   background: linear-gradient(35deg, black, rgb(4, 4, 96), transparent);
-   display:flex;
-   justify-content: space-evenly;
-   flex-wrap: wrap;
-   flex-direction: column;
-   align-items: center;
-   padding:5px;
-   
+nav {
+  background-color: rgb(61, 60, 60);
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
 }
 
-nav h1{
-    color:white;
-    background-color:rgb(4, 4, 96);
-    padding: 5px;
-    border-radius: 8px;
-    border: 2px solid white;
-    text-shadow: 5px 5px black;
+nav h1 {
+  color: antiquewhite;
+  background-color: rgb(0, 175, 250);
+  padding: 5px;
+  border-radius: 8px;
+  border: 2px solid antiquewhite;
+  text-shadow: 5px 5px 5px black;
+  font-size: 48px;
 }
 
-nav button{
-    margin: 5px;
-    text-align: center;
-    background-color: transparent;
-    color: white;
-    border: 2px solid transparent;
-    border-radius: 8px;
-    font-size: 20px;
-    text-shadow: 5px 5px black;
-    
-
+nav button {
+  width: 140px;
+  height: 60px;
+  border: none;
+  color: antiquewhite;
+  border-radius: 8px;
+  transition: ease-out 0.3s;
+  font-size: 25px;
+  margin: 10px;
+  background-color: rgb(61, 60, 60);
+  outline: none;
+  border: 3px solid rgb(0, 175, 250);
+  position: relative;
+  z-index: 1;
+  text-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px black;
 }
 
-nav button:hover{
-    background-color: rgb(4, 4, 96);
-    color:rgb(94, 94, 230);
-    cursor: pointer;
+nav button:hover {
+  color: antiquewhite;
+  cursor: pointer;
 }
 
+nav button:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: rgb(0, 175, 250);
+}
+
+nav button:hover:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}

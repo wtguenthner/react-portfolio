@@ -1,53 +1,88 @@
-.Projects{
-    margin:10vh;
-    display:flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    
+.Projects .container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+  margin: 50px auto;
+  background: rgb(0, 175, 250);
+  padding-bottom: 70px;
 }
 
-.Projects section{
-    width:48%;
-    position: relative;
-    margin-bottom: 10px;
-    height:100%;
-    border-color: white;
-    border-style: solid;
-    border-radius: 5px;
+.Projects .container .app {
+  position: relative;
+  width: calc(400px - 30px);
+  height: calc(300px - 30px);
+  background: grey;
+  float: left;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  border-color: antiquewhite;
+  border-style: solid;
+  box-shadow: 5px 5px 5px black;
 }
 
-.Projects section img{
-    width:100%;
-    height: 100%;
-}
-.Projects section:hover{
-    opacity: 60%;
-}
+.Projects .container .app .iconBox {
+  /* text-align: center; */
 
-.Projects section div{
-    border-radius: 8px;
-    background-color: rgb(4, 4, 96);
-    position: absolute;
-    color:white;
-    bottom: 10px;
-    left:10px;
-    height:15%;
-    width:70%;
-}
-.Projects h4{
-font-size: 100%;
-word-wrap:break-word;
-
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(61, 60, 60);
+  transition: 0.5s;
+  z-index: 1;
 }
 
-.Projects h2{
-    font-size: 1.2em;
-    word-wrap:break-word;
-    padding:5px;
+.Projects .container .app:hover .iconBox {
+  top: 20px;
+  left: calc(50% - 40px);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
 }
 
-/* .Projects section:first-child{
-    width:60%;
-    margin-left:20%;
-    /* height:400px; */
+.Projects .container .app .iconBox .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: rgb(0, 175, 250);
+  transition: 0.5s;
+}
 
+.Projects .container .app:hover .iconBox .icon {
+  font-size: 40px;
+}
+
+.Projects .app .description {
+  position: absolute;
+  top: 100%;
+  height: calc(100% - 100px);
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.Projects .app .description h3 {
+  margin: 0 0 10px;
+  padding: 0;
+  color: antiquewhite;
+  font-size: 24px;
+}
+
+.Projects .app .description p {
+  margin: 0;
+  padding: 0;
+  color: antiquewhite;
+}
+
+.Projects .container .app:hover .description {
+  top: 100px;
+}
