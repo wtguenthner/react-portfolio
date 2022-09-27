@@ -3,7 +3,7 @@
   color: antiquewhite;
   display: flex;
   justify-content: center;
-  
+  padding-bottom: 70px;
 }
 
 .contact img {
@@ -11,7 +11,13 @@
   margin-right: 10px;
   float: left;
 }
-
+.contact h1{
+  background-color:rgb(61, 60, 60);
+  border-radius: 5px;
+  border-style: solid;
+  border-color:rgb(0, 175, 250);
+  
+}
 body {
   background-color: rgb(0, 175, 250);
 }
@@ -23,11 +29,15 @@ body {
   width: 60%;
   text-align: center;
   margin-bottom: 10%;
+  border-color:antiquewhite;
+  border-style: solid;
+  box-shadow: 5px 5px 5px black;
+  
 }
 
 .contact .contactForm #input {
   height: 75px;
-  width: 500px;
+  width: 80%;
 }
 
 .contact .contactForm #name,
@@ -65,3 +75,4 @@ body {
   color: rgb(0, 175, 250);
   cursor: pointer;
 }
+

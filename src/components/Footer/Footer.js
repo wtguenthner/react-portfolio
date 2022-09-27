@@ -6,7 +6,9 @@ const Footer = () =>
 <footer>
 <div className = "icon"><a href="https://github.com/wtguenthner"><GoMarkGithub /></a></div>
 <div className = "icon"><a href="https://www.linkedin.com/in/taylor-guenthner"><BsLinkedin /></a></div>
-<div className ="icon"><a href="https://www.codewars.com/users/wtguenthner"><SiCodewars /></a></div>
+<div className = "icon"><a href="https://www.codewars.com/users/wtguenthner"><SiCodewars /></a></div>
 </footer>
 
 export default Footer;
+
+

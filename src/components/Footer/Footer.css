@@ -15,6 +15,7 @@ footer {
 
 footer .icon{
    font-size: 48pt;
+   position: relative;
 }
 footer .icon a:hover{
     color:rgb(0, 175, 250);
@@ -23,3 +24,4 @@ footer a:visited{
     color:black;
 
 }
+
