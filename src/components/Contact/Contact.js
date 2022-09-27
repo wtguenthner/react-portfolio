@@ -57,10 +57,10 @@ const Contact = () => {
         />
       </div>
       <div>
-        <button
+        <button id="submitButton"
           type="submit"
         >
-          Send a message
+          Send message
         </button>
       </div>
     </form>
