@@ -85,3 +85,20 @@
   top: 100px;
 }
 
+.Projects .projectContainer{
+  display:flex;
+  justify-content: center;
+}
+
+.Projects .projectContainer .projectTitle{
+  font-size:30px;
+  background-color:rgb(61, 60, 60);
+  padding:15px;
+  border-radius:25px;
+  color:rgb(0, 175, 250);
+  margin-top:25px;
+  margin-bottom:-25px;
+  border-style: solid;
+  border-color:antiquewhite;
+  box-shadow: 5px 5px 5px black;
+}

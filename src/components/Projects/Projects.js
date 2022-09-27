@@ -9,6 +9,7 @@ import { MdQuiz } from "react-icons/md";
 import { ImProfile } from "react-icons/im";
 const Projects = () => (
   <main className="Projects">
+    <div className="projectContainer"><div className="projectTitle">Developed Projects</div></div>
     <div className="container">
       {projects.map((app) => (
         <a href={app.link}>
