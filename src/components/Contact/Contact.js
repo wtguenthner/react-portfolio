@@ -14,6 +14,7 @@ const Contact = () => {
   if (submitted) {
     return (
       <>
+      
       <div className="completeContainer">
         <div className="complete">
             <p>Form submitted.</p>
