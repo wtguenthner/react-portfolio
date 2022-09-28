@@ -38,8 +38,10 @@ const Projects = () => (
               <h3>{app.title}</h3>
               <p>{app.description}</p>
               <br></br>
+              <p>{app.languages}</p>
+              <br></br>
               <p id="gitLink">
-                {" "}
+                
                 <a href={app.repo}>
                   <GoMarkGithub />
                 </a>

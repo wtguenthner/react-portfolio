@@ -13,7 +13,7 @@
 .Projects .container .app {
   position: relative;
   width: calc(400px - 30px);
-  height: calc(340px - 30px);
+  height: calc(380px - 30px);
   background: grey;
   float: left;
   margin: 15px;

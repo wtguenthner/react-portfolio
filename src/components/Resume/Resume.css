@@ -1,6 +1,9 @@
 .resume {
     margin: 10vh;
     color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .resume img {
@@ -12,3 +15,15 @@
 body{
     background-color: rgb(0, 175, 250);
   }
+
+  .resume .container{
+    height:fit-content;
+    padding:10px;
+    border-style:solid;
+    border-radius: 20px;
+    background-color: grey;
+    width:40%;
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+    
+}

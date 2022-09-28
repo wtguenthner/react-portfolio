@@ -5,7 +5,8 @@
     "description": "Prepare for battle! A card game with multiple character classes to choose from and randomly generated stat cards to apply to your character. Choose wisely and see if you can defeat the boss!",
     "image": "dungeon",
     "link": "https://dungeons-devs.herokuapp.com/",
-    "repo": "https://github.com/wtguenthner/Dungeons-Devs"
+    "repo": "https://github.com/wtguenthner/Dungeons-Devs",
+    "languages":"Express, Sequelize, MySQL, APIs, HTML, CSS, Javascript"
   },
   {
     "key": "2",
@@ -13,7 +14,8 @@
     "description": "Bored on a weekend evening? Planning a trip out of town? Look no further as Event Finder allows you to search for events in your city ranging from baseball games, concerts and festivals. Get off the couch!",
     "image": "event",
     "link": "https://mmmphoto.github.io/Event-Finder/",
-    "repo": "https://github.com/MMMPhoto/Event-Finder"
+    "repo": "https://github.com/MMMPhoto/Event-Finder",
+    "languages": "APIs, HTML, CSS, Javascript"
   },
   {
     "key": "3",
@@ -21,7 +23,8 @@
     "description": "A simple application for viewing the weather in your area. Great to use in tandem with Event Finder!",
     "image": "weather",
     "link": "https://wtguenthner.github.io/Weather_Dashboard/",
-    "repo": "https://github.com/wtguenthner/Weather_Dashboard"
+    "repo": "https://github.com/wtguenthner/Weather_Dashboard",
+    "languages": "APIs, HTML, CSS, Javascript"
   },
   {
     "key": "4",
@@ -29,7 +32,8 @@
     "description": "An hourly planner for your 9-5 work day. Add notes and save them to your schedule.",
     "image": "planner",
     "link": "https://wtguenthner.github.io/Weekly_Planner/",
-    "repo": "https://github.com/wtguenthner/Weekly_Planner"
+    "repo": "https://github.com/wtguenthner/Weekly_Planner",
+    "languages": "HTML, CSS, Javascript"
   },
   {
     "key": "5",
@@ -37,7 +41,8 @@
     "description": "A quiz for coders. See if you can answer all the questions before time runs out. Be careful! Each wrong answers subtracts seconds from your time. Also includes a highscore list for tracking your previous scores.",
     "image": "quiz",
     "link": "https://wtguenthner.github.io/CodingQuiz/",
-    "repo": "https://github.com/wtguenthner/CodingQuiz"
+    "repo": "https://github.com/wtguenthner/CodingQuiz",
+    "languages": "HTML, CSS, Javascript"
   },
   {
     "key": "6",
@@ -45,6 +50,7 @@
     "description": "Generate a team list for your company or group. Keep track of their position, managers, email, salary and Github account. Displays an HTML page for easy viewing. Must use the CLI to generate the list first.",
     "image": "teamprofile",
     "link": "https://github.com/wtguenthner/Team_Profile_Generator",
-    "repo": "https://github.com/wtguenthner/Team_Profile_Generator"
+    "repo": "https://github.com/wtguenthner/Team_Profile_Generator",
+    "languages": "Node, Inquirer, HTML, CSS, Javascript"
   }
 ]
