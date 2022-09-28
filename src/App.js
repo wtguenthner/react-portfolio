@@ -9,16 +9,14 @@ import Contact from "./components/Contact";
 const App = () => {
   const [page, setPage] = useState("about");
 
-  console.log("page: ", page);
-
   return (
     <>
       <Nav page={setPage} />
-      {page == "about" ? (
+      {page === "about" ? (
         <About />
-      ) : page == "projects" ? (
+      ) : page === "projects" ? (
         <Projects />
-      ) : page == "resume" ? (
+      ) : page === "resume" ? (
         <Resume />
       ) : (
         <Contact />

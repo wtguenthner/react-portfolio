@@ -13,7 +13,7 @@
 .Projects .container .app {
   position: relative;
   width: calc(400px - 30px);
-  height: calc(300px - 30px);
+  height: calc(340px - 30px);
   background: grey;
   float: left;
   margin: 15px;
@@ -101,4 +101,15 @@
   border-style: solid;
   border-color:antiquewhite;
   box-shadow: 5px 5px 5px black;
+}
+
+.Projects #gitLink{
+  font-size: 20px;
+}
+
+.Projects #gitLink a:visited{
+  color:antiquewhite;
+}
+.Projects #gitLink a:hover{
+color:rgb(0, 175, 250);
 }
