@@ -27,3 +27,17 @@ body{
     box-shadow: 5px 5px 5px black;
     
 }
+.resume .hospitalityResume{
+    color:black;
+}
+.resume .hospitalityResume h1{
+    font-size: 60px;
+    margin:0;
+    margin-top:10px;
+    color:white;
+}
+.resume .hospitalityResume a:hover{
+    color:rgb(0, 175, 250);
+}
+
+

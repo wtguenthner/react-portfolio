@@ -1,10 +1,12 @@
 import './Resume.css';
-
+import resume1 from './assets/TG Resume 2020.pdf'
+import {GrDocumentPdf} from 'react-icons/gr'
 const Resume= () =>
     <main className='resume'>
         <div className="container">
-        <p>This is filling space.  It should be replace later on.  This is filling space.  It should be replace later on.  This is filling space.  It should be replace later on.  This is filling space.  It should be replace later on.  This is filling space.  It should be replace later on.  </p>
-        <p>This is filling space.  It should be replace later on.  This is filling space.  It should be replace later on.  This is filling space.  It should be replace later on.  This is filling space.  It should be replace later on.  This is filling space.  It should be replace later on.  </p>
+            <div className="hospitalityResume"><h1><a href= {resume1} download="Taylor Guenthner Resume"><GrDocumentPdf/></a></h1>
+            <span>Hospitality Resume</span>
+            </div>
         </div>
     </main>
 
