@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.e61c4f02.css",
-    "main.js": "/react-portfolio/static/js/main.2de687b6.js",
+    "main.css": "/react-portfolio/static/css/main.6fd4ec93.css",
+    "main.js": "/react-portfolio/static/js/main.58cebf25.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/profile_pic.jpeg": "/react-portfolio/static/media/profile_pic.f9b77a4626de28212647.jpeg",
     "static/media/TG Resume 2020.pdf": "/react-portfolio/static/media/TG Resume 2020.1ad5f45439f0dd823d6e.pdf",
     "index.html": "/react-portfolio/index.html",
-    "main.e61c4f02.css.map": "/react-portfolio/static/css/main.e61c4f02.css.map",
-    "main.2de687b6.js.map": "/react-portfolio/static/js/main.2de687b6.js.map",
+    "main.6fd4ec93.css.map": "/react-portfolio/static/css/main.6fd4ec93.css.map",
+    "main.58cebf25.js.map": "/react-portfolio/static/js/main.58cebf25.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e61c4f02.css",
-    "static/js/main.2de687b6.js"
+    "static/css/main.6fd4ec93.css",
+    "static/js/main.58cebf25.js"
   ]
 }
