@@ -33,4 +33,20 @@ body{
     background-color: rgb(0, 175, 250);
   }
 
-  
+  @media screen and (max-width: 880px){
+
+    .aboutMe .profile{
+        width: 100%;
+        margin:0px;
+    }
+    .aboutMe{
+        margin-bottom:100px;
+        height:850px;
+    }
+  }
+
+  @media screen and (min-width: 2650px) {
+    .aboutMe .profile{
+        width: 30%;
+    }
+  }

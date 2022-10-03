@@ -71,3 +71,12 @@ body {
   color: rgb(0, 175, 250);
   cursor: pointer;
 }
+
+@media screen and (max-width: 510px ) {
+
+  .contact .contactForm{
+    width:100%;
+  } 
+  
+  
+}

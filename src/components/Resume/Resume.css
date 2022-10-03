@@ -4,6 +4,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .resume img {
@@ -22,15 +23,19 @@ body{
     border-style:solid;
     border-radius: 20px;
     background-color: grey;
-    width:40%;
+    width:fit-content;
     text-align: center;
     box-shadow: 5px 5px 5px black;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
     
 }
-.resume .hospitalityResume{
+.resume .hospitalityResume, .developerResume{
     color:black;
+    margin: 10px;
 }
-.resume .hospitalityResume h1{
+.resume .hospitalityResume h1, .developerResume h1{
     font-size: 60px;
     margin:0;
     margin-top:10px;
@@ -40,4 +45,9 @@ body{
     color:rgb(0, 175, 250);
 }
 
-
+/* @media screen and (max-width: 950px){
+    .resume .container{
+        width:100%;
+    }
+    
+} */

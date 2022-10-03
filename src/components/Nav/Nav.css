@@ -27,7 +27,7 @@ nav .title{
 }
 nav .titleDescription{
     text-align:center;
-    font-size:12pt;
+    font-size:15pt;
 }
 
 nav button {
@@ -73,3 +73,30 @@ nav button:hover:before {
   z-index: -1;
 }
 
+@media screen and (max-width:650px) {
+  nav h1{
+    font-size:28px;
+  }
+  nav button{
+    width:fit-content;
+    font-size: 18px;
+  }
+  nav .title{
+    width:fit-content;
+  }
+  
+}
+
+@media screen and (max-width:430px) {
+  nav button{
+    font-size:15px;
+  }
+  
+}
+@media screen and (max-width:375px) {
+  nav button{
+    font-size:12px;
+    height: fit-content;
+  }
+  
+}
