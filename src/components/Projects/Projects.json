@@ -2,11 +2,11 @@
   {
     "key": "1",
     "title": "Dungeons & Devs",
-    "description": "Prepare for battle! A card game with multiple character classes to choose from and randomly generated stat cards to apply to your character. Choose wisely and see if you can defeat the boss!",
+    "description": "Prepare for battle! Choose your cards wisely and see if you can defeat the bosses in the depths of your computer.",
     "image": "dungeon",
-    "link": "https://dungeons-devs.herokuapp.com/",
-    "repo": "https://github.com/wtguenthner/Dungeons-Devs",
-    "languages":"Express, Sequelize, MySQL, APIs, HTML, CSS, Javascript"
+    "link": "https://dungeons-n-devs.herokuapp.com/",
+    "repo": "https://github.com/hackpres/DnDevs_React",
+    "languages":"React, MongoDB, Apollo, HTML, CSS, Javascript"
   },
   {
     "key": "2",
