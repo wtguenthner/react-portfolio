@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: row;
 }
 
 .App-logo {
@@ -36,3 +38,14 @@
     transform: rotate(360deg);
   }
 }
+body{
+  display: grid;
+  
+  height:100vh;
+  background-image: url("./background_green.png");
+  background-repeat: no repeat;
+  background-size: cover;
+  font-family: 'Rubik', serif;
+  
+}
+

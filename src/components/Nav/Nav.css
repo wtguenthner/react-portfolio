@@ -1,102 +1,173 @@
+*{
+  margin:0;
+  padding: 0;
+  border:0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
 
-nav {
-  background-color: rgb(61, 60, 60);
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  flex-direction: column;
+}
+
+body{
+  
+  
+  height:100vh;
+  background-image: url("./img/background_green.png");
+  background-repeat: no repeat;
+  background-size: cover;
+  font-family: 'Rubik', serif;
+  
+}
+
+
+
+.navbar{
+  z-index: 1;
+  position: absolute;
+  width: 120px;
+  height: 100%;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  background: rgba(10,10,10,.65);
+  box-shadow: 0 8px 32px rgb(2,4,24);
+  border-right: 2px solid rgba(255,255,255,.09);
+  transition: .4s ease-in-out;
+}
+.navbar.open{
+  width: 360px;
+}
+
+.navbar .Logo{
+  width: 100%;
+  height: 240px;
+  padding: 40px 0;
+  display: grid;
   align-items: center;
-  padding: 5px;
+  justify-items: center;
+
+}
+
+.navbar .Logo img{
+  width: 120px;
+ transition: .4s;
+
+}
+.navbar.open .Logo img{
+  width: 190px;
+}
+.navbar .Logo h3{
+ color: #fff;
+ font-size: 36px;
+ margin-top: 12px;
+ font-variant: small-caps;
+ pointer-events: none;
+ 
+  display: none;
  
 }
 
-nav h1 {
-  color: antiquewhite;
-  background-color: rgb(0, 175, 250);
-  padding: 10px;
-  border-radius: 8px;
-  border: 2px solid antiquewhite;
-  text-shadow: 5px 5px 5px black;
-  font-size: 48px;
-  text-align: center;
-  box-shadow: 5px 5px black;
-}
-nav .title{
-    
-    width:40%;
-}
-nav .titleDescription{
-    text-align:center;
-    font-size:15pt;
+.navbar.open .Logo h3{
+  
+  transition: .4s;
+  transition-delay: .2s ;
+  display: contents;
 }
 
-nav button {
-  width: 140px;
-  height: 60px;
-  border: none;
-  color: antiquewhite;
-  border-radius: 8px;
-  transition: ease-out 0.3s;
-  font-size: 25px;
-  margin: 10px;
-  background-color: rgb(61, 60, 60);
-  outline: none;
-  border: 3px solid rgb(0, 175, 250);
-  position: relative;
-  z-index: 1;
-  text-shadow: 5px 5px 5px black;
-  box-shadow: 5px 5px 5px black;
-}
-
-nav button:hover {
-  color: antiquewhite;
-  cursor: pointer;
-}
-
-nav button:before {
-  transition: 0.5s all ease;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  right: 50%;
-  bottom: 0;
+.navbar .nav-title{
+  color: #dadada;
+  margin: 40px 0 18px;
+  pointer-events: none;
   opacity: 0;
-  content: "";
-  background-color: rgb(0, 175, 250);
 }
-
-nav button:hover:before {
-  transition: 0.5s all ease;
-  left: 0;
-  right: 0;
+.navbar.open .nav-title{
   opacity: 1;
-  z-index: -1;
+  transition: .4s;
+  transition-delay: .2s ;
 }
 
-@media screen and (max-width:650px) {
-  nav h1{
-    font-size:28px;
-  }
-  nav button{
-    width:fit-content;
-    font-size: 18px;
-  }
-  nav .title{
-    width:fit-content;
-  }
-  
+.navbar nav{
+  padding: 0 30px;
+
 }
 
-@media screen and (max-width:430px) {
-  nav button{
-    font-size:15px;
-  }
-  
+.navbar nav .nav-item{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 4px;
+  width: 100%;
+  height: 56px;
+  padding: 0 16px;
+  margin: 8px 0;
+  color: #fff;
+  transition: .3s;
 }
-@media screen and (max-width:375px) {
-  nav button{
-    font-size:12px;
-    height: fit-content;
-  }
-  
+
+.navbar nav .nav-item i{
+  font-size: 26px;
+
+}
+.navbar nav .nav-item .navText{
+  font-size: 18px;
+  margin-left: 8px;
+  pointer-events: none;
+  opacity: 0;
+}
+.navbar.open nav .nav-item .navText{
+  pointer-events: visible;
+  opacity: 1;
+  transition: .4s;
+  transition-delay: .2s ;
+}
+.navbar nav .nav-item.active{
+  background: #06b304 !important;
+}
+
+.navbar nav .nav-item:hover{
+  background: rgba(255,255,255,.1)
+}
+
+.navbar hr{
+  width: 100%;
+  height: 2px;
+  background: rgba(255,255,255,.1);
+  border-radius: 3px;
+  margin: 40px 0 50px;
+  opacity: 0;
+}
+.navbar.open hr{
+  opacity: 1;
+  transition: .4s;
+}
+
+.navbar .toggle {
+  cursor: pointer;
+  position: absolute;
+  color: #fff;
+  top: 180px;
+  right: -20px;
+  font-size: 38px;
+  line-height: 50%;
+  text-align: center;
+  border-style: solid;
+  border-right-width: 4px;
+  border-radius: 50%;
+  border-color: #06b304;
+  padding: 2px 0 2px 2px;
+  background: linear-gradient(
+      90deg,
+      transparent 50%,
+      rgba(10,10,10, 0.65) 50%
+  )
+}
+
+.navbar.open .toggle {
+  transform: translateY(45px);
+}
+.navbar .toggle  i{
+  transition: .4s linear;
+}
+.navbar.open .toggle  i{
+  transform: rotateY(180deg);
 }

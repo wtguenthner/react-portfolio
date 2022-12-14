@@ -38,7 +38,7 @@
   {
     "key": "5",
     "title": "Coding Quiz",
-    "description": "A quiz for coders. See if you can answer all the questions before time runs out. Be careful! Each wrong answers subtracts seconds from your time. Also includes a highscore list for tracking your previous scores.",
+    "description": "A quiz for coders. See if you can answer all the questions before time runs out. Be careful! Each wrong answers subtracts seconds from your time.",
     "image": "quiz",
     "link": "https://wtguenthner.github.io/CodingQuiz/",
     "repo": "https://github.com/wtguenthner/CodingQuiz",

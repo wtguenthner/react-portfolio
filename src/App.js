@@ -10,8 +10,10 @@ const App = () => {
   const [page, setPage] = useState("about");
 
   return (
-    <>
-      <Nav page={setPage} />
+    
+      <>
+      <Nav page={setPage}/>
+      
       {page === "about" ? (
         <About />
       ) : page === "projects" ? (
@@ -21,8 +23,9 @@ const App = () => {
       ) : (
         <Contact />
       )}
-      <Footer />
+      {/* <Footer /> */}
     </>
+    
   );
 };
 

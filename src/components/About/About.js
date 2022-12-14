@@ -1,42 +1,31 @@
 import "./About.css";
 import "../Nav/Nav.css"
 import profile from "./img/profile_pic.jpeg";
+import { GoMarkGithub } from "react-icons/go";
+import {BsLinkedin} from "react-icons/bs"
+import {SiCodewars} from "react-icons/si"
 
 const About = () => (
-   
+  //  <div className="aboutMe">
+  //   <span>About Me</span>
+  //  </div>
   <main className="aboutMe">
      
     <div className="profile">
-      <div>
+      {/* <div>
         <img src={profile} />
-      </div>
+      </div> */}
       <p>
-        <h2>Welcome!</h2>
+        <h1>hi I'm Taylor.</h1>
+        <h2>Full Stack Web Developer</h2>
+        <h3>Atlanta, GA</h3>
+        <div className = "contactLinks">
+        <div className = "icon"><a href="https://github.com/wtguenthner"><GoMarkGithub /></a></div>
+<div className = "icon"><a href="https://www.linkedin.com/in/taylor-guenthner"><BsLinkedin /></a></div>
+<div className = "icon"><a href="https://www.codewars.com/users/wtguenthner"><SiCodewars /></a></div>
+</div>
       </p>
-      <p>
-        <h3>
-          I am a recent bootcamp graduate for full stack development based out
-          of Atlanta, Georgia.
-        </h3>
-      </p>
-      <p>
-        <h3>
-          Attended Georgia State University for Computer Science but made a
-          career in the hospitality industry since.
-        </h3>
-      </p>
-      <p>
-        <h3>Eager and excited to start a new career in the coding industry.</h3>
-      </p>
-      <p>
-        <h3>
-          Questions or job oppurtunities? Visit my contact page to submit an
-          email.
-        </h3>
-      </p>
-      <p>
-        <h3>Links below for my profile pages.</h3>
-      </p>
+     
     </div>
   </main>
 );
