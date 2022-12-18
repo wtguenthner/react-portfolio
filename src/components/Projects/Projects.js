@@ -11,7 +11,7 @@ const Projects = () => (
   <main className="Projects">
     <div className="projectContainer">
       <div className="projectTitle">PROJECTS</div>
-    </div>
+      </div>
     <div className="container">
       {projects.map((app) => (
         <a href={app.link}>
@@ -50,6 +50,7 @@ const Projects = () => (
           </div>
         </a>
       ))}
+      
     </div>
   </main>
 );
