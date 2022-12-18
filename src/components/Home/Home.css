@@ -50,7 +50,7 @@
 .aboutMe .contactLinks a:visited{
     color: white;
 }
-  @media screen and (max-width: 880px){
+  /* @media screen and (max-width: 880px){
 
     .aboutMe .profile{
         width: 100%;
@@ -66,5 +66,5 @@
     .aboutMe .profile{
         width: 30%;
     }
-  }
+  } */
 
