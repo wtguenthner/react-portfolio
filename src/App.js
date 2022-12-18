@@ -5,16 +5,19 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
-
+import Home from "./components/Home"
 const App = () => {
-  const [page, setPage] = useState("about");
+  const [page, setPage] = useState("home");
 
   return (
     
       <>
       <Nav page={setPage}/>
       
-      {page === "about" ? (
+      {page === "home" ? (
+        <Home />
+      ):
+      page === "about" ? (
         <About />
       ) : page === "projects" ? (
         <Projects />

@@ -10,7 +10,7 @@ import { ImProfile } from "react-icons/im";
 const Projects = () => (
   <main className="Projects">
     <div className="projectContainer">
-      <div className="projectTitle">Developed Projects</div>
+      <div className="projectTitle">PROJECTS</div>
     </div>
     <div className="container">
       {projects.map((app) => (

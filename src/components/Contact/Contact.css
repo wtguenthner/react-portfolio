@@ -2,8 +2,14 @@
   margin: 10vh;
   color: antiquewhite;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding-bottom: 70px;
+  z-index: 0;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
 }
 
 .contact img {
@@ -12,10 +18,11 @@
   float: left;
 }
 .contact h1 {
-  background-color: rgb(61, 60, 60);
-  border-radius: 5px;
-  border-style: solid;
-  border-color: rgb(0, 175, 250);
+  border-bottom-style: solid;
+  border-width: 5px;
+  border-bottom-color:#06b304;
+  padding: 15px;
+  margin-bottom: 50px;
 }
 
 
@@ -32,14 +39,17 @@
 }
 
 .contact .contactForm #input {
-  height: 75px;
+  height: 60%;
   width: 80%;
+  padding: 10px;
+  margin-top: 15px;
 }
 
 .contact .contactForm #name,
 #email {
-  height: 20px;
-  width: 200px;
+  margin-top: 15px;
+  height: 30px;
+  width: 60%;
 }
 .completeContainer {
   display: flex;
@@ -57,16 +67,18 @@
 }
 
 .contact .contactForm #submitButton {
-  background-color: rgb(0, 175, 250);
+  background-color: #06b304;
+  padding: 5px;
   height: 30px;
   color: antiquewhite;
   font-size: 20px;
   border-radius: 8px;
+  margin-top: 10px;
 }
 
 .contact .contactForm #submitButton:hover {
-  background-color: rgb(61, 60, 60);
-  color: rgb(0, 175, 250);
+  background-color: black;
+  color: #06b304;
   cursor: pointer;
 }
 

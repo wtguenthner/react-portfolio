@@ -1,0 +1,70 @@
+.aboutMe {
+    /* margin: 10vh; */
+    color:antiquewhite;
+    height:100vh;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    /* padding-bottom: 100px; */
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 0;
+}
+
+.aboutMe img {
+    border-radius: 50%;
+    border-style:solid;
+
+    margin-right: 10px;
+    float: left;
+    height:150px;
+    width:150px;
+    /* padding-bottom: 100px; */
+}
+.aboutMe .profile{
+    height:fit-content;
+    /* padding:10px; */
+    /* border-style:solid;
+    border-radius: 20px; */
+    
+    width:40%;
+    text-align: center;
+    /* box-shadow: 5px 5px 5px black; */
+    
+}
+
+.aboutMe .contactLinks{
+    font-size: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+}
+.aboutMe .contactLinks .icon a:hover {
+ color: #06b304;
+  }
+
+.aboutMe .contactLinks a:visited{
+    color: white;
+}
+  @media screen and (max-width: 880px){
+
+    .aboutMe .profile{
+        width: 100%;
+        margin:0px;
+    }
+    .aboutMe{
+        margin-bottom:100px;
+        height:850px;
+    }
+  }
+
+  @media screen and (min-width: 2650px) {
+    .aboutMe .profile{
+        width: 30%;
+    }
+  }
+

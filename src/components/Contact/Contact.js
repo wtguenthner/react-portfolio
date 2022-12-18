@@ -1,5 +1,8 @@
 import './Contact.css'
 import React, { useState } from "react";
+import { GoMarkGithub } from "react-icons/go";
+import {BsLinkedin} from "react-icons/bs"
+import {SiCodewars} from "react-icons/si"
 
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/5df62dd0-3e94-11ed-a10f-d1a38bd15d37"; 
 
@@ -27,13 +30,13 @@ const Contact = () => {
 
   return (
     <main className="contact">
-       
+       <h1>CONTACT</h1>
     <form className = "contactForm"
       action={FORM_ENDPOINT}
       onSubmit={handleSubmit}
       method="POST"
       target="_blank"
-    > <h1>Contact Taylor</h1>
+    > 
       <div>
         <input id="name"
           type="text"
@@ -65,15 +68,10 @@ const Contact = () => {
         </button>
       </div>
     </form>
+  
     </main>
   );
 };
-// const Contact= () =>
-//     <main className='contact'>
-//         <div className="contactForm">
-//         <p>This is filling space.  It should be replace later on.  This is filling space.  It should be replace later on.  This is filling space.  It should be replace later on.  This is filling space.  It should be replace later on.  This is filling space.  It should be replace later on.  </p>
-//         <p>This is filling space.  It should be replace later on.  This is filling space.  It should be replace later on.  This is filling space.  It should be replace later on.  This is filling space.  It should be replace later on.  This is filling space.  It should be replace later on.  </p>
-//         </div>
-//     </main>
+
 
     export default Contact;

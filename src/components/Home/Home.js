@@ -1,4 +1,4 @@
-import "./About.css";
+import "./Home.css";
 import "../Nav/Nav.css"
 import profile from "./img/profile_pic.jpeg";
 import { GoMarkGithub } from "react-icons/go";
@@ -16,7 +16,9 @@ const About = () => (
         <img src={profile} />
       </div> */}
       <p>
-        <h3></h3>
+        <h1>hi I'm <span style={{color:'#06b304'}}>Taylor</span>.</h1>
+        <h2>Full Stack Web Developer</h2>
+        <h3>Atlanta, GA</h3>
         <div className = "contactLinks">
         <div className = "icon"><a href="https://github.com/wtguenthner"><GoMarkGithub /></a></div>
 <div className = "icon"><a href="https://www.linkedin.com/in/taylor-guenthner"><BsLinkedin /></a></div>

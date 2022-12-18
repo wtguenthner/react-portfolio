@@ -4,15 +4,7 @@ import logo from "./img/logo.png";
 import { useEffect, useState } from "react";
 
 const Nav = (props) => {
-  // navItems.forEach(navItem =>{
-  //     navItem.addEventListener('click', () =>{
-  //         navItems.forEach(navItem =>{
-  //             navItem.classList.remove('active');
-  //         })
-  //         navItem.classList.add('active');
-  //     });
-  // });
-
+ 
   const [toggle, setToggle] = useState("navbar");
   const [homeActive, setHomeActive] = useState("nav-item");
   const [aboutActive, setAboutActive] = useState("nav-item");
