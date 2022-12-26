@@ -7,7 +7,10 @@ import { BsFillCalendarEventFill } from "react-icons/bs";
 import { TiWeatherPartlySunny } from "react-icons/ti";
 import { MdQuiz } from "react-icons/md";
 import { ImProfile } from "react-icons/im";
+import Animate from "../../Animate";
+
 const Projects = () => (
+  <Animate>
   <main className="Projects">
     <div className="projectContainer">
       <div className="projectTitle">PROJECTS</div>
@@ -53,6 +56,7 @@ const Projects = () => (
       
     </div>
   </main>
+  </Animate>
 );
 
 export default Projects;

@@ -1,7 +1,7 @@
 import "./Nav.css";
 import logo from "./img/logo.png";
-
-import { useEffect, useState } from "react";
+import { Routes, Route,NavLink} from "react-router-dom";
+import {  useState } from "react";
 
 const Nav = (props) => {
  
@@ -62,61 +62,71 @@ const Nav = (props) => {
         <nav>
           <div className="nav-title">Navigation</div>
           <ul>
+          <NavLink to="/" style={{ textDecoration: 'none' }}>
             <li
               onClick={() => {
                 
                 buttonActive(0);
-                props.page("home");
+               
               }}
               className={homeActive}
             >
               <i className="bx bx-home"></i>
               <span className="navText">Home</span>
             </li>
+            </NavLink>
+            <NavLink to="/about" style={{ textDecoration: 'none' }}>
             <li
               onClick={() => {
                 buttonActive(1);
-                props.page("about");
+                
               }}
               className={aboutActive}
             >
               <i className="bx bx-user"></i>
               <span className="navText">About</span>
             </li>
+            </NavLink>
+            <NavLink to="/projects" style={{ textDecoration: 'none' }}>
             <li
               onClick={() => {
                 buttonActive(2);
-                props.page("projects");
+                
               }}
               className={projectActive}
             >
               <i className="bx bx-archive"></i>
               <span className="navText">Projects</span>
             </li>
+            </NavLink>
           </ul>
           <hr></hr>
           <div className="nav-title">Contact</div>
           <ul>
+          <NavLink to="/contact" style={{ textDecoration: 'none' }}>
             <li
               onClick={() => {
                 buttonActive(3);
-                props.page("contact");
+                
               }}
               className={messageActive}
             >
               <i className="bx bx-message-edit"></i>
               <span className="navText">Send Message</span>
             </li>
+            </NavLink>
+            <NavLink to="/resume" style={{ textDecoration: 'none' }}>
             <li
               onClick={() => {
                 buttonActive(4);
-                props.page("resume");
+                
               }}
               className={resumeActive}
             >
               <i className="bx bx-file-blank"></i>
               <span className="navText">Resume</span>
             </li>
+            </NavLink>
           </ul>
         </nav>
       </div>

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { GoMarkGithub } from "react-icons/go";
 import {BsLinkedin} from "react-icons/bs"
 import {SiCodewars} from "react-icons/si"
-
+import Animate from "../../Animate";
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/5df62dd0-3e94-11ed-a10f-d1a38bd15d37"; 
 
 const Contact = () => {
@@ -16,6 +16,7 @@ const Contact = () => {
 
   if (submitted) {
     return (
+      <Animate>
       <>
       
       <div className="completeContainer">
@@ -25,10 +26,12 @@ const Contact = () => {
             </div>
         </div>
       </>
+      </Animate>
     );
   }
 
   return (
+    <Animate>
     <main className="contact">
        <h1>CONTACT</h1>
     <form className = "contactForm"
@@ -70,6 +73,7 @@ const Contact = () => {
     </form>
   
     </main>
+    </Animate>
   );
 };
 

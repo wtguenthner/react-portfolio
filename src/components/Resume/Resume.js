@@ -1,7 +1,9 @@
 import './Resume.css';
-import resume1 from './assets/TG Resume 2020.pdf'
-import resume2 from './assets/Software_Resume.pdf'
-import {GrDocumentPdf} from 'react-icons/gr'
+import resume1 from './assets/TG Resume 2020.pdf';
+import resume2 from './assets/Software_Resume.pdf';
+import {GrDocumentPdf} from 'react-icons/gr';
+import Animate from "../../Animate";
+
 const Resume= () =>
     <main className='resume'>
         <div className="container">

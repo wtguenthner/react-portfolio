@@ -2,13 +2,14 @@ import "./About.css";
 import "../Nav/Nav.css"
 import profile from "./img/profile_pic.jpeg";
 import { GoMarkGithub } from "react-icons/go";
-import {BsLinkedin} from "react-icons/bs"
-import {SiCodewars} from "react-icons/si"
-
+import {BsLinkedin} from "react-icons/bs";
+import {SiCodewars} from "react-icons/si";
+import Animate from "../../Animate";
 const About = () => (
   //  <div className="aboutMe">
   //   <span>About Me</span>
   //  </div>
+  <Animate>
   <main className="aboutMe">
      
     <div className="profile">
@@ -26,6 +27,7 @@ const About = () => (
      
     </div>
   </main>
+  </Animate>
 );
 
 export default About;
