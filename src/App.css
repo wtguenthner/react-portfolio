@@ -43,9 +43,9 @@ body{
   
   height:100vh;
   background-image: url("./background_green.png");
-  background-repeat: no repeat;
+  background-repeat:no-repeat;
   background-size: cover;
   font-family: 'Rubik', serif;
-  
+  position: fixed;
 }
 

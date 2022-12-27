@@ -50,11 +50,19 @@ const Projects = () => (
                 </a>
               </p>
             </div>
+            
           </div>
+          <br></br>
+          <span id="smallGitLink"><a href={app.repo}>
+                  <GoMarkGithub />
+                </a></span>
+    
         </a>
-      ))}
       
+      ))}
+    
     </div>
+    
   </main>
   </Animate>
 );

@@ -1,9 +1,9 @@
 import "./Nav.css";
 import logo from "./img/logo.png";
-import { Routes, Route,NavLink} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import {  useState } from "react";
 
-const Nav = (props) => {
+const Nav = () => {
  
   const [toggle, setToggle] = useState("navbar");
   const [homeActive, setHomeActive] = useState("nav-item");
@@ -63,7 +63,7 @@ const Nav = (props) => {
           <div className="nav-title">Navigation</div>
           <ul>
           <NavLink to="/" style={{ textDecoration: 'none' }}>
-            <li
+            <li title="Home"
               onClick={() => {
                 
                 buttonActive(0);
@@ -76,7 +76,7 @@ const Nav = (props) => {
             </li>
             </NavLink>
             <NavLink to="/about" style={{ textDecoration: 'none' }}>
-            <li
+            <li title="About"
               onClick={() => {
                 buttonActive(1);
                 
@@ -88,7 +88,7 @@ const Nav = (props) => {
             </li>
             </NavLink>
             <NavLink to="/projects" style={{ textDecoration: 'none' }}>
-            <li
+            <li title="Projects"
               onClick={() => {
                 buttonActive(2);
                 
@@ -104,7 +104,7 @@ const Nav = (props) => {
           <div className="nav-title">Contact</div>
           <ul>
           <NavLink to="/contact" style={{ textDecoration: 'none' }}>
-            <li
+            <li title="Contacts"
               onClick={() => {
                 buttonActive(3);
                 
@@ -116,7 +116,7 @@ const Nav = (props) => {
             </li>
             </NavLink>
             <NavLink to="/resume" style={{ textDecoration: 'none' }}>
-            <li
+            <li title="Resume"
               onClick={() => {
                 buttonActive(4);
                 

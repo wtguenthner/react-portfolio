@@ -1,3 +1,4 @@
+
 body{
   font-family: 'Rubik', serif;
 }
@@ -8,6 +9,7 @@ body{
   padding-left: 120px;
 
 }
+
 .Projects .container {
   display: flex;
   flex-wrap: wrap;
@@ -19,6 +21,7 @@ body{
   margin: 50px auto;
   z-index: 0;
   padding-bottom: 70px;
+  
 }
 
 .Projects .container .app {
@@ -47,13 +50,13 @@ body{
   z-index: 1;
 }
 
-.Projects .container .app:hover .iconBox {
+/* .Projects .container .app:hover .iconBox {
   top: 20px;
   left: calc(50% - 40px);
   width: 80px;
   height: 80px;
   border-radius: 50%;
-}
+} */
 
 .Projects .container .app .iconBox .icon {
   position: absolute;
@@ -119,10 +122,72 @@ body{
 .Projects #gitLink{
   font-size: 20px;
 }
-
+.Projects #gitLink a {
+color: antiquewhite;
+}
 .Projects #gitLink a:visited{
   color:antiquewhite;
 }
 .Projects #gitLink a:hover{
 color:#06b304;
+}
+
+@media screen and (max-width: 1000px) {
+  .Projects .container #smallGitLink a,
+  .Projects .container #smallGitLink a:visited{
+    color: white;
+  }
+  .Projects .container #smallGitLink a:hover{
+    color: #06b304;
+  }
+  .Projects .container #smallGitLink{
+    visibility: visible;
+    margin-left: 40%;
+    font-size: 18px;
+
+  }
+  .Projects  .container{
+   padding-left:0px;
+   backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  background: rgba(10,10,10,.65);
+  }
+  .Projects .container .app {
+    width: calc(100px - 20px);
+    height: calc(95px - 20px);
+    
+  }
+  .Projects .projectContainer .projectTitle{
+    font-size:25px;
+    margin-left:10%;
+  }
+  .Projects  {
+   width:90%;
+    /* padding:10px;
+    margin:30px; */
+  }
+  .Projects .container .app .iconBox .icon{
+    font-size: 40px;
+  }
+  
+  .Projects .container .app .description h3{
+    font-size:16px;
+  }
+  .Projects .container .app .description p{
+    opacity:0;
+  }
+
+}
+
+@media screen  and (min-width: 1001px) {
+  .Projects .container .app:hover .iconBox {
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .Projects .container #smallGitLink{
+    visibility: hidden;
+  }
 }
