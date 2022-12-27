@@ -17,7 +17,10 @@ const Projects = () => (
       </div>
     <div className="container">
       {projects.map((app) => (
+        
         <a href={app.link}>
+          
+          
           <div className="app">
             <div class="iconBox">
               <span className="icon">

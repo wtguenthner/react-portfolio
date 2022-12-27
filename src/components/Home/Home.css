@@ -26,9 +26,6 @@
 .home .profile{
     height:fit-content;
     border-radius: 5px;
-    backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-  background: rgba(10,10,10,.65);
     width:50%;
     text-align: center;
     
@@ -58,6 +55,9 @@
     .home .profile{
         width:50%;
         margin-left:25%;
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        background: rgba(5, 5, 5, 0.25);
     }
    
   }
